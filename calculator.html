@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" href="calc.png">
+    </head>
+<body>
+    
+<h2><b>CALCULATOR</b></h2>
+    <div id="myCalculator" >
+    
+    <form  name="calc" id="numeric" >
+    <input type="text" id="numeric" name="input" readonly >
+    <br>
+    <hr>
+    <div id ="icons" >
+        <table>
+            <tr>
+        <input type="button" id="numeric" class="numbers" value=" 1 " onclick="calc.input.value +='1'"></input>
+        <input type="button" id="numeric" class="numbers" value=" 2 "  onclick="calc.input.value+='2'"></input>
+        <input type="button"  id="numeric" class="numbers" value=" 3 "  onclick="calc.input.value+='3'"></input>
+        <input type="button"   id="numeric" class="calculation" value=" + " onclick="calc.input.value +='+'"></input>
+    </tr><br><br>
+       <tr>
+         <input type="button" id="numeric" class="numbers" value=" 4 " onclick="calc.input.value +='4'" ></input>
+        <input type="button" id="numeric" class="numbers" value=" 5 "onclick="calc.input.value +='5'"></input>
+        <input type="button" id="numeric" class="numbers" value=" 6 " onclick="calc.input.value+='6'"></input>
+        <input type="button" id="numeric" class="calculation" value=" - " onclick="calc.input.value +='-'"></input>
+    </tr> <br><br>
+        <tr>
+        <input type="button" id="numeric" class="numbers" value=" 7 "onclick="calc.input.value +='7'"></input>
+        <input type="button" id="numeric" class="numbers" value=" 8 " onclick="calc.input.value +='8'"></input>
+        <input type="button" id="numeric" class="numbers" value=" 9 "onclick="calc.input.value+='9'"></input>
+        <input type="button" id="numeric" class="calculation" value=" * " onclick="calc.input.value +='*'"></input>
+        <br><br>
+        <input type="button" id="numeric" class="numbers" value=" = " onclick="calc.input.value =eval(calc.input.value)"></input>
+        <input type="button" id="numeric" class="numbers" value=" 0 "onclick="calc.input.value +='0'"></input>
+        <input type="button" id="numeric" class="numbers" value=" / "onclick="calc.input.value +='/'"></input>
+        <input type="button" id="numeric" class="clear" value="AC"onclick="calc.input.value =''"></input>
+    </tr></table> </div>
+</form>
+</div> 
+    </body>
+    </html>

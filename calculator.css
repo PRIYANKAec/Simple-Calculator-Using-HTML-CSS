@@ -1,0 +1,40 @@
+ #numeric{
+    background-color:rgb(231, 231, 243);
+        margin:2px;
+         font-style:italic;
+         font-size:20px;
+         color:hsl(180, 76%, 3%);
+         border-color: hsl(0, 89%, 46%);
+         border-radius: 10px;
+         border-style:bold;
+         list-style: circle;
+         color: hwb(253 2% 66%);
+         transition: all 0.8s ease-in-out;
+         display: inline-block;
+        }
+ body{
+     background-color:#808080;
+     margin:2px;
+     border-color: hsl(0, 89%, 46%);
+     border-radius: 10px;
+    border-style:bold;
+    list-style: circle;
+    padding: 100px;
+    text-align:center;
+     box-sizing: content-box;
+     box-shadow: rgb(38, 221, 151) ;
+} 
+h2{
+    font-size: 30px;
+    color: rgb(89, 226, 89);
+    font-family: cursive;
+    text-shadow:  3px 3px  0.5vh #06456e;
+    transition: all .5s ease-in-out;
+    
+}
+#numeric:hover{
+    background: rgb(91, 153, 140);
+    color:black;
+    cursor: pointer;
+    background:rotate;
+}
